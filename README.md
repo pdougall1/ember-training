@@ -1,4 +1,5 @@
 # Training
+## This app is a reflection of the Tilde training remade with the ember-cli
 
 This README outlines the details of collaborating on this Ember application.
 
