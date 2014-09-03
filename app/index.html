@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Training</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{BASE_TAG}}
+
+    <link rel="stylesheet" href="assets/vendor.css">
+    <link rel="stylesheet" href="assets/training.css">
+  </head>
+  <body>
+    <script src="assets/vendor.js"></script>
+    <script src="assets/training.js"></script>
+    <script>
+      window.TrainingENV = require('training/config/environment')['default'];
+      window.EmberENV = window.TrainingENV.EmberENV;
+      window.Training = require('training/app')['default'].create(TrainingENV.APP);
+    </script>
+  </body>
+</html>
